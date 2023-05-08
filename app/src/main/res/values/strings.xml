@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AlertFragmentPractice</string>
+    <string name="butt_alert">ALERT</string>
+    <string name="frg_title_count_init">Notice!</string>
+    <string name="frg_txt_count_init">Counter will be initialize.</string>
+    <string name="frg_butt_pos">Continue</string>
+    <string name="frg_butt_neut">Toast</string>
+    <string name="frg_neut_toast">Toast!</string>
+    <string name="frg_butt_neg">Cancel</string>
+    <string name="butt_count">COUNT</string>
+    <string name="butt_random">RANDOM</string>
+
+    <string name="msg_toast">Get your Toast!</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txv_random_frgm">Here is a random number
+        between 0 to </string>
+</resources>

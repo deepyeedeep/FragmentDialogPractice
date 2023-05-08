@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container_view_random"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentRandom">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/frg_txv_expn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txv_random_frgm"
+        app:layout_constraintBottom_toTopOf="@id/frg_txv_randnum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"/>
+    <TextView
+        android:id="@+id/frg_txv_randnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="50sp"
+
+        app:layout_constraintTop_toBottomOf="@id/frg_txv_expn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
